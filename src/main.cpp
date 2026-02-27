@@ -7,5 +7,8 @@ void setup() {
 }
 
 void loop() {
-    // Wait 1 second
+    myServo.write(0);    // Move to 0 degrees
+    delay(1000);         // Wait 1 second
+
+      // Wait 1 second
 }
