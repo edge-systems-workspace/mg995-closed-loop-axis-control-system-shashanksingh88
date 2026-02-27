@@ -1,9 +1,11 @@
-#include <Arduino.h>
+#include <Servo.h>   // Include Servo library
+
+Servo myServo;       // Create servo object
+
 void setup() {
-// write your initialization code here
+    myServo.attach(9);   // Attach servo signal pin to digital pin 9
 }
 
-
 void loop() {
-// write your code here
+    // Wait 1 second
 }
